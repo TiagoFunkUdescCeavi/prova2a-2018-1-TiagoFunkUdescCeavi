@@ -8,9 +8,5 @@ $("#idade").mouseleave(function (e){
     }else{
         resultado = "Idoso";
     }
-    $("#mostrar").html(resultado);
-});
-
-$("#botaoSalvar").click(function (e){
-    
+    alert(resultado);
 });
