@@ -20,8 +20,8 @@ $("#botaoMostrar").click(function (e) {
     botaoLimpar.value = "Limpar";
 
     botaoLimpar.click(function (e) {
-        let mostrar  = document.getElementById("mostrar");
-        mostrar.value = "";
+        let mostrar  = document.getElementById("#mostrar");
+        $("#mostrar").html("vazio");
     });
 
     document.body.appendChild(botaoLimpar);
